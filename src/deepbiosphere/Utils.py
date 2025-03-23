@@ -25,18 +25,18 @@ IMAGENET_CHANS = 3
 
 ## ---------- Paths to important directories ---------- ##
 
- paths = SimpleNamespace(
-    OCCS = '/your/path/here/',
-    SHPFILES = '/your/path/here/',
-    MODELS = '/your/path/here/',
-    IMAGES = '/your/path/here/',
-    RASTERS = '/your/path/here/',
-    BASELINES = '/your/path/here/',
-    RESULTS = '/your/path/here/',
-    MISC = '/your/path/here/',
-    DOCS = '/your/path/here/',
-    SCRATCH = '/your/path/here/',
-    RUNS = '/your/path/here/',
+paths = SimpleNamespace(
+    OCCS = 'C:/Users/Qiang/Desktop/deepbiosphere_501/PATHS/OCCS/',
+    SHPFILES = 'C:/Users/Qiang/Desktop/deepbiosphere_501/PATHS/SHPFILES/',
+    MODELS = 'C:/Users/Qiang/Desktop/deepbiosphere_501/PATHS/MODELS/',
+    IMAGES = 'C:/Users/Qiang/Desktop/deepbiosphere_501/PATHS/IMAGES/',
+    RASTERS = 'C:/Users/Qiang/Desktop/deepbiosphere_501/PATHS/RASTERS/',
+    BASELINES = 'C:/Users/Qiang/Desktop/deepbiosphere_501/PATHS/BASELINES/',
+    RESULTS = 'C:/Users/Qiang/Desktop/deepbiosphere_501/PATHS/RESULTS/',
+    MISC = 'C:/Users/Qiang/Desktop/deepbiosphere_501/PATHS/MISC/',
+    DOCS = 'C:/Users/Qiang/Desktop/deepbiosphere_501/PATHS/DOCS/',
+    SCRATCH = 'C:/Users/Qiang/Desktop/deepbiosphere_501/PATHS/SCRATCH/',
+    RUNS = 'C:/Users/Qiang/Desktop/deepbiosphere_501/PATHS/RUNS/',
     BLOB_ROOT = 'https://naipblobs.blob.core.windows.net/')
 
 ## ---------- Base class for function type checking enum ---------- ##
